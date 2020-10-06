@@ -20,13 +20,9 @@ public class hiWorld {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		System.out.println("Ctrl+space");  //sysout
-		System.out.println("eva");
+		System.out.println("------");
 		
 //		 TODO eva
-		int lolo=3;
-		
-		lolo=lolo+1;
-		
 		/*
 		 * ctrl+D delete
 		 * ctrl + / commment
