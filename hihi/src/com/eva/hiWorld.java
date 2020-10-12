@@ -22,7 +22,7 @@ public class hiWorld {
 		System.out.println("Ctrl+space");  //sysout
 		System.out.println("------");
 		
-//		 TODO eva
+
 		/*
 		 * ctrl+D delete
 		 * ctrl + / commment
@@ -58,6 +58,52 @@ public class hiWorld {
 			}
 		};
 		
+		
+		/**
+		 *  Exercise 1
+		 */
+		Programmer p = new Programmer();
+		System.out.println(p.id+" "+p.name+" "+p.salary );
+		//changing the default values of attributes
+		p.name="Rob";
+		p.id=10;
+		p.salary=2000;
+		System.out.println(p.id+" "+p.name+" "+p.salary );
+
+
+		/**
+		 * Exercise 2
+		 */
+		Circle c = new Circle(10);
+		System.out.println(c.perimeter());
+		System.out.println(c.area());
+		
+		/**
+		 * Exercise 3
+		 */
+		Employee e = new Employee();
+		e.setData();
+		e.getData();
+
+		// lets create the tech object and see if it works
+		Tech t = new Tech();
+		t.setData();
+		t.getSalary();
+		t.getData();
+		
+		// lets create the design object and see if it works
+		Design d = new Design();
+		d.setData();
+		d.getSalary();
+		d.getData();
+		
+		// lets create the design object and see if it works
+		HR h = new HR();
+		h.setData();
+		h.getSalary();
+		h.getData();
+				
+				
 		
 	}
 
