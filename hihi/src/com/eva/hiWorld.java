@@ -68,7 +68,7 @@ public class hiWorld {
 		p.name="Rob";
 		p.id=10;
 		p.salary=2000;
-		System.out.println(p.id+" "+p.name+" "+p.salary );
+		System.out.println("Programmer" + p.id+" "+p.name+" "+p.salary );
 
 
 		/**
